@@ -23,3 +23,6 @@ calculate the new total.
 3. Print a message with the total of the original 10 apples and the new amount
    added together, for example: "You now have a total of <new number> apples."
 '''
+apples = 10 # original nubmer of the apples
+add_apples = int(input("Type the number of apples your friend bought: ")) # additional apples
+print(f"You now have a total of {apples + add_apples} apples") # display the result with calculated value

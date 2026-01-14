@@ -24,3 +24,8 @@ a formatted list of team members using special escape sequences.
    Example:
    "Team: Code Crackers\n\tAlice\n\tBen\n\tCarla"
 '''
+team_name = input("Type a nmae of your team") # team name input
+member1 = input("Type a name of your team leader: ") # member 1 input
+member2 = input("Type a name of your team member: ") # member 2 input
+member3 = input("Type a name of your team second member: ") # member 3 input
+print(f"Team: {team_name}\n{member1}\n{member2}\n{member3}") # display the result

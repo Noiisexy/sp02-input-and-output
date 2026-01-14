@@ -22,3 +22,6 @@ details from the user and display them back in a formatted message.
 3. Print out a sentence like: "Nice to meet you, <name>! <movie> is a great
    choice!"
 '''
+user_name = input("What is your name? ") # get a string value from the user for a name
+fav_movie = input("What is your favorite movie? ") # get a string value from the user for a movie
+print(f"Nice to meet you, {user_name}! {fav_movie} is a great choice!") # display message

@@ -22,3 +22,6 @@ message using input() and string concatenation.
 2. Ask the user how many times a week they eat it.
 3. Print a message like: "You eat <snack> <times> times a week? Yum!"
 '''
+favsnack = input("What is your favorite snack? ") # favorite snack name input 
+frequency = input("How many times do you eat the snack? ") # frequency input
+print(f"You eat {favsnack} {frequency} times a week? Yum!") # display ther result
